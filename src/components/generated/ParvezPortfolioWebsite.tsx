@@ -66,8 +66,8 @@ function ProjectArtwork({
 }
 export const ParvezPortfolioWebsite = () => {
   useEffect(() => {
-    const pageTitle = "Parvez Ahamed Shaik | CSE (IoT) Student, Developer & Builder";
-    const description = "Portfolio of Parvez Ahamed Shaik, a Computer Science and Engineering (IoT) student at SRM IST Ramapuram, Chennai. Explore ServiceHub, an interactive restaurant management demo, and an ESP32 fruit-spoilage monitoring prototype.";
+    const pageTitle = "kandanuru Parvez Ahamed  | CSE (IoT) Student, Developer & Builder";
+    const description = "Portfolio of kandanuru Parvez Ahamed , a Computer Science and Engineering (IoT) student at SRM IST Ramapuram, Chennai. Explore ServiceHub, an interactive restaurant management demo, and an ESP32 fruit-spoilage monitoring prototype.";
     document.title = pageTitle;
     const meta = (key: string, value: string, property = false) => {
       const attribute = property ? "property" : "name";
@@ -99,7 +99,7 @@ export const ParvezPortfolioWebsite = () => {
     structured.textContent = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Parvez Ahamed Shaik",
+      name: "kandanuru Parvez Ahamed ",
       url: "https://designs.magicpath.ai/v1/zestily-time-8260",
       email: "mailto:parvezahamed.9898@gmail.com",
       telephone: "+917993001292",
@@ -241,7 +241,7 @@ export const ParvezPortfolioWebsite = () => {
         </div>
         <article className="resume-print rounded-3xl border border-[#cbb7ae] bg-white p-7 shadow-sm sm:p-9">
           <div className="border-b border-[#cbb7ae] pb-5">
-            <p className="portfolio-display text-3xl font-extrabold text-[#5b443a]">PARVEZ AHAMED SHAIK</p>
+            <p className="portfolio-display text-3xl font-extrabold text-[#5b443a]">KANDANURU PARVEZ AHAMED</p>
             <p className="mt-2 text-sm font-semibold">First-Year B.Tech CSE (IoT) Student | Vibe Coding & Full-Stack Development</p>
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
               <a href="mailto:parvezahamed.9898@gmail.com" className="underline">parvezahamed.9898@gmail.com</a>
